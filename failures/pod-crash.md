@@ -25,5 +25,4 @@ kubectl logs <pod-name> -n platform-demo
 - Fix resource limits
 - Redeploy
 
-## Interview Explanation
-I start with pod status, then describe the pod for events, then check application logs. Most CrashLoopBackOff issues come from app startup failure, missing config, secret mismatch, or memory pressure.
+start with pod status, then describe the pod for events, then check application logs. Most CrashLoopBackOff issues come from app startup failure, missing config, secret mismatch, or memory pressure.
