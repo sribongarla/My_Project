@@ -24,5 +24,5 @@ kubectl rollout restart deployment eks-devops-platform -n platform-demo
 - Validate DB connectivity
 - Improve secret rotation process
 
-## Interview Explanation
-One real-world example is a DB password change where the app still used old credentials. I updated the Kubernetes Secret and restarted the deployment.
+
+One real-world example is a DB password change where the app still used old credentials. updated the Kubernetes Secret and restarted the deployment.
