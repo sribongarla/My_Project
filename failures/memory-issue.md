@@ -25,5 +25,4 @@ Check:
 - Add alert at 70–75%
 - Review code for memory leaks
 
-## Interview Explanation
-I stabilize first by tuning resources, then investigate heap/logs with developers, and finally improve monitoring so we detect it earlier.
+ stabilize first by tuning resources, then investigate heap/logs with developers, and finally improve monitoring so we detect it earlier.
