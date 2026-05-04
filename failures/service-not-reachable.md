@@ -25,5 +25,4 @@ kubectl describe ingress eks-devops-platform -n platform-demo
 - Confirm container port and target port
 - Validate ALB/security group/DNS
 
-## Interview Explanation
-If the app is not reachable, I check the full traffic path from ingress to service to pod. A common issue is selector mismatch between service and pod labels.
+If the app is not reachable,  check the full traffic path from ingress to service to pod. A common issue is selector mismatch between service and pod labels.
