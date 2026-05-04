@@ -13,6 +13,6 @@ Create dashboards for:
 - JVM heap usage
 - API throughput
 
-Interview line:
+
 
 Grafana is the visualization layer. Prometheus collects metrics from Kubernetes and applications, and Grafana displays those metrics in dashboards.
