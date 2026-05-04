@@ -66,22 +66,4 @@ eks-devops-platform/
 └── docs/                   # Interview explanation and architecture notes
 ```
 
-## Project Summary for Interview
-
-I built an AWS EKS platform automation project where I used Terraform to provision infrastructure, Packer to build standard AMIs, GitLab CI/CD to automate build and deployment, and Docker to containerize microservices. Applications were deployed into EKS using Kubernetes objects like Deployments, Services, Ingress, ConfigMaps, Secrets, and HPA. I implemented observability using Prometheus, Grafana, Datadog, Loki, and Tempo for metrics, logs, traces, and alerting. I also documented real failure scenarios like pod evictions, Java memory issues, database secret failures, and application routing problems.
-
-## How to Present in Interview
-
-1. Start with the problem: manual deployments and inconsistent infrastructure.
-2. Show the repo structure.
-3. Open `.gitlab-ci.yml` and explain stages.
-4. Open `Dockerfile` and explain image creation.
-5. Open Terraform and explain AWS/EKS provisioning.
-6. Open Packer and explain standard AMI creation.
-7. Open Kubernetes YAML and explain traffic flow.
-8. Open monitoring files and explain metrics/logs/traces.
-9. Open failure scenarios and explain troubleshooting.
-
-## Important Notes
-
-This is a portfolio/demo project. Replace placeholders such as AWS account ID, domain names, ECR repository, and secrets before running in a real environment.
+ers such as AWS account ID, domain names, ECR repository, and secrets before running in a real environment.
