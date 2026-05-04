@@ -1,8 +1,7 @@
 # Project Explanation: AWS EKS Platform Automation
 
-## 30-Second Summary
 
-I built an AWS EKS platform automation project using Terraform, Packer, GitLab CI/CD, Docker, and Kubernetes. Terraform provisioned AWS infrastructure, Packer created standard AMIs, GitLab automated build/test/deploy, and Kubernetes ran the workloads on EKS. For observability, I used Prometheus, Grafana, Loki, Tempo, and Datadog.
+ built an AWS EKS platform automation project using Terraform, Packer, GitLab CI/CD, Docker, and Kubernetes. Terraform provisioned AWS infrastructure, Packer created standard AMIs, GitLab automated build/test/deploy, and Kubernetes ran the workloads on EKS. For observability, I used Prometheus, Grafana, Loki, Tempo, and Datadog.
 
 ## Why This Design
 
@@ -22,4 +21,4 @@ I built an AWS EKS platform automation project using Terraform, Packer, GitLab C
 
 ## Improvements
 
-If I redesign this today, I would add stronger policy-as-code, image scanning, OpenTelemetry standards, GitOps with ArgoCD, and automated rollback based on health checks.
+ would add stronger policy-as-code, image scanning, OpenTelemetry standards, GitOps with ArgoCD, and automated rollback based on health checks.
