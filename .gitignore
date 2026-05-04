@@ -1,0 +1,10 @@
+target/
+*.class
+*.jar
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+.DS_Store
+.idea/
+.vscode/
